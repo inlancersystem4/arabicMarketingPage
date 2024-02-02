@@ -13,25 +13,92 @@
 <body>
 
 
-    <footer class="bg-themeColor4 px-4 py-5">
+    <footer class="bg-themeColor4 px-4 py-5 sm:px-5 sm:py-14 deskTop:py-14">
 
-        <div class="w-full border border-solid border-themeColor3">
+        <div class="w-full border border-solid border-themeColor3 custom-container">
 
-            <div class="px-3 py-6">
+            <div class="px-3 py-6 sm:py-9 sm:px-14">
 
-                <div class="space-y-7">
+                <div class="space-y-7 deskTop:flex deskTop:items-center">
 
-                    <h2 class="text-themeColor2 rtl:text-right ltr:text-left text-4xl">الرسالة الإخبارية</h2>
+                    <h2
+                        class="text-themeColor2 rtl:text-right ltr:text-left text-4xl sm:text-6xl deskTop:text-7xl deskTop:max-w-[250px]">
+                        الرسالة الإخبارية
+                    </h2>
 
-                    <div class="bg-themeColor2 bg-opacity-5 py-7 px-3.5 rounded-tr-[50px] rounded-bl-[50px]">
+                    <div
+                        class="bg-themeColor2 bg-opacity-5 py-7 px-3.5 rounded-tr-[50px] rounded-bl-[50px] space-y-10 sm:px-12 deskTop:w-full deskTop:max-w-[560px] deskTop:mr-auto">
 
                         <h6 class="font-bold rtl:text-right ltr:text-left text-lg text-themeColor2">أحضر أخبار وأفكار
                             وكالة (ريكس) إلى بريدك</h6>
+
+                        <form action="#" method="post"
+                            class="w-full flex flex-row items-center border-b border-solid border-themeColor2 border-opacity-50">
+                            <input type="email"
+                                class="w-full outline-none bg-transparent py-2.5 px-1.5 rtl:text-right ltr:text-left text-themeColor2"
+                                placeholder="عنوان بريدك الإلكتروني" />
+                            <button>
+                                <img src="./images/arraowIcon.svg" alt="arraowIcon" />
+                            </button>
+                        </form>
 
                     </div>
 
                 </div>
 
+            </div>
+
+            <div class="border-t border-solid border-themeColor3">
+                <div class="grid grid-cols-2 divide-x divide-x-reverse divide-themeColor3">
+                    <div class="w-full divide-y divide-themeColor3 h-full deskTop:grid deskTop:grid-cols-2 deskTop:divide-y-0 deskTop:divide-x deskTop:divide-x-reverse">
+                        <div class="sm:p-6 px-2.5 py-4 space-y-8 h-auto">
+                            <h6 class="text-themeColor2 font-bold text-lg">وكالة الإستقبال</h6>
+                            <ul class="space-y-8">
+                                <li>
+                                    <a href="#" class="text-lg text-themeColor2 text-opacity-50">العمل</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-lg text-themeColor2 text-opacity-50">حول</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-lg text-themeColor2 text-opacity-50">البحث</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-lg text-themeColor2 text-opacity-50">الاتصال</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sm:p-6 px-2.5 py-4 space-y-8 h-auto">
+                            <h6 class="text-themeColor2 font-bold text-lg">وكالة آخر أخبار العلامة التجارية</h6>
+
+                            <img src="./images/footer_img_1.png" alt="footer_img_1" class="max-w-full h-auto" />
+                        </div>
+                    </div>
+                    <div class="w-full divide-y divide-themeColor3 h-auto deskTop:grid deskTop:grid-cols-2 deskTop:divide-y-0 deskTop:divide-x deskTop:divide-x-reverse">
+                        <div class="sm:p-6 px-2.5 py-4 space-y-8 h-auto">
+                            <h6 class="text-themeColor2 font-bold text-lg">والدعم</h6>
+                            <ul class="space-y-8">
+                                <li>
+                                    <a href="#" class="text-lg text-themeColor2 text-opacity-50">الدعم</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-lg text-themeColor2 text-opacity-50">الأسئلة المتواترة</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-lg text-themeColor2 text-opacity-50">سياسة الخصوصية</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-lg text-themeColor2 text-opacity-50">شروط وأحكام</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sm:p-6 px-2.5 py-4 space-y-8 h-auto">
+                            <div class="flex items-center justify-center w-full h-full">
+                                <img src="./images/logo.svg" alt="logo" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
