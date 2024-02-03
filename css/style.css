@@ -25,3 +25,19 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+.count-list li::before {
+    counter-increment: count;
+    content: counter(count) "0";
+    position: absolute;
+    right: 18px;
+    top: -21px;
+    font-size: 24px;
+    color: #1B4965;
+    padding: 0 4px;
+    background-color: white;
+}
+
+.count-list li:nth-last-child(1) {
+    border-bottom: 1px solid #1B4965;
+}
